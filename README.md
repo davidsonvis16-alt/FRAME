@@ -24,5 +24,6 @@ Before launch, wire them to a real backend: M-Pesa Daraja STK Push, a card proce
 Artwork photos in `public/art/` were cropped from @framezetu posts. Swap in the original high-res files when available.
 
 ## Stock art
-`src/lib/stock.ts` lists 35 public-domain (CC0) works from the Art Institute of Chicago open-access API.
-They load directly from `artic.edu`'s IIIF image server, so the demo needs internet access.
+`src/lib/stock.ts` lists 34 public-domain works held by the Art Institute of Chicago (Van Gogh, Monet, Renoir, Hokusai, Kandinsky and others).
+The image files are public-domain scans from Wikimedia Commons, saved in `public/art/stock/` and served by the site itself, so there is no hotlinking.
+Each entry's `source` field links its Commons file page.
