@@ -38,7 +38,7 @@ export function Home() {
       <div className="ribbon" aria-label="Featured pieces">
         <div className="ribbon__track">
           {RIBBON.map((a, i) => (
-              <a key={a.id} href={`#/art/${a.id}`} className="ribbon__item" style={{ width: [300, 250, 330, 270][i % 4] * Math.min(Math.max(a.ratio, 0.6), 1.3) }}>
+              <a key={a.id} href={`#/art/${a.id}`} className="ribbon__item" style={{ width: [300, 250, 330, 270][i % 4] * Math.min(Math.max(a.ratio, 0.6), 1.3), ['--w' as string]: [300, 250, 330, 270][i % 4] * Math.min(Math.max(a.ratio, 0.6), 1.3) }}>
                 <Framed art={a.art} ratio={Math.min(Math.max(a.ratio, 0.6), 1.3)} frameId={FRAME_CYCLE[i % FRAME_CYCLE.length]} thickness={9} mat={i % 3 !== 2} alt={a.title} />
                 <span>{a.title}</span>
               </a>
@@ -49,7 +49,7 @@ export function Home() {
       <div className="marquee">
         <div>
           <span>
-            Print <i>◆</i> Frame <i>◆</i> Inspire <i>◆</i> House makeovers <i>◆</i> M-Pesa accepted <i>◆</i> Countrywide delivery
+            <em>Print</em> <i>◆</i> <em>Frame</em> <i>◆</i> <em>Inspire</em> <i>◆</i> <em>House makeovers</em> <i>◆</i> <em>M-Pesa accepted</em> <i>◆</i> <em>Countrywide delivery</em>
           </span>
         </div>
       </div>

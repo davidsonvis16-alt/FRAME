@@ -219,6 +219,7 @@ h2 { font-size: clamp(28px, 3.4vw, 42px); font-weight: 700; }
 .marquee > div { display: flex; flex-wrap: wrap; justify-content: center; padding: 0 var(--gutter); }
 .marquee span { padding: 14px 0; font: 700 16px/1.8 var(--display); letter-spacing: .02em; text-align: center; }
 @media (max-width: 600px) { .marquee span { font-size: 13px; } .marquee i { margin: 0 8px; } }
+.marquee em { font-style: normal; white-space: nowrap; }
 .marquee i { font-style: normal; color: var(--copper-xl); margin: 0 18px; font-size: 12px; }
 
 /* ---------- sections ---------- */
@@ -637,4 +638,44 @@ label input:focus, label textarea:focus { outline: none; border-color: var(--cop
 :focus-visible { outline: 2px solid var(--red); outline-offset: 3px; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+
+/* ---------- phones: two-up gallery instead of one giant card per row ---------- */
+@media (max-width: 600px) {
+  .salon { grid-template-columns: repeat(2, 1fr); gap: 14px; padding-bottom: 28px; }
+  .salon__slot:nth-child(even) { transform: translateY(28px); }
+  .salon__cta { padding: 18px 14px; gap: 6px; clip-path: polygon(0 0, 100% 0, 100% calc(100% - 14px), calc(100% - 14px) 100%, 0 100%); }
+  .salon__cta b { font-size: 20px; }
+  .salon__cta span:not(.drop__frame) { font-size: 13px; line-height: 1.4; }
+  .salon__cta em { font-size: 13px; margin-top: 4px; }
+  .marquee span { line-height: 2; }
+
+  .wall { columns: 2; column-gap: 14px; }
+  .wall > .card { margin-bottom: 18px; }
+  .wall--row { grid-template-columns: repeat(2, 1fr); gap: 14px; }
+
+  .card, .card:hover { transform: none; }
+  .card__hang { padding: 22px 8px 8px; }
+  .card__wire { height: 18px; top: 4px; }
+  .card .framed { border-width: 6px !important; }
+  .card .framed__mat { padding: 5px !important; }
+  .card__plate { flex-direction: column; gap: 6px; padding: 10px 10px 12px; border-top-width: 3px; --bevel: 10px; }
+  .card__cat { font-size: 9px; letter-spacing: .12em; }
+  .card h3 { font-size: 14px; line-height: 1.2; }
+  .card p { font-size: 11px; }
+  .card__side { width: 100%; grid-auto-flow: column; justify-content: space-between; align-items: center; }
+  .card__side b { font-size: 12px; }
+  .pin { width: 28px; height: 28px; }
+  .card__ribbon { font-size: 9px; padding: 3px 8px 3px 9px; top: 8px; }
+
+  .ribbon { padding-bottom: 36px; }
+  .ribbon__track { gap: 18px; }
+  .ribbon__item { width: calc(var(--w) * 0.62px) !important; }
+
+  .moods__row { gap: 12px; }
+  .mood { padding: 14px 14px 16px 18px; }
+  .mood__stack { height: 100px; margin-bottom: 10px; }
+  .mood__stack > div { width: 38%; left: calc(6% + var(--k) * 26%); }
+  .mood__stack .framed__art { aspect-ratio: 4 / 5 !important; }
+  .mood b { font-size: 20px; }
 }
