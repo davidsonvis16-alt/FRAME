@@ -175,7 +175,7 @@ const MUSEUM: Artwork[] = STOCK.filter(a => {
   artist: a.artist,
   category: (a.category === 'Typography' ? 'Posters' : a.category) as Category,
   mood: a.mood as Mood,
-  art: { kind: 'img', src: `https://www.artic.edu/iiif/2/${a.image}/full/843,/0/default.jpg` },
+  art: { kind: 'img', src: `/art/stock/${a.id}.jpg` },
   ratio: a.ratio,
   blurb: `A museum classic by ${a.artist}, printed on archival matte paper and framed by hand in Nairobi.`,
   bestseller: i % 9 === 4,

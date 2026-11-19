@@ -1,5 +1,5 @@
 // Public-domain works from the Art Institute of Chicago open-access API (CC0).
-// Images are served from their IIIF image server.
+// Image files are public-domain scans from Wikimedia Commons, saved in public/art/stock/ (each entry's `source` links the file page).
 export const STOCK = [
   {
     "id": "aic-11",
@@ -7,8 +7,8 @@ export const STOCK = [
     "artist": "Walter Shirlaw",
     "category": "Portraits",
     "mood": "Calm",
-    "image": "7b7a6f39-1cd8-ea2f-9811-18b0e23edac0",
-    "ratio": 0.765
+    "ratio": 0.853,
+    "source": "https://commons.wikimedia.org/wiki/File:Walter_Shirlaw_self-portrait.jpg"
   },
   {
     "id": "aic-94840",
@@ -16,8 +16,8 @@ export const STOCK = [
     "artist": "Workshop of Rembrandt van Rijn",
     "category": "Portraits",
     "mood": "Calm",
-    "image": "91c51644-871f-cda9-82bb-94f4973ae339",
-    "ratio": 0.835
+    "ratio": 0.825,
+    "source": "https://commons.wikimedia.org/wiki/File:Samuel_van_Hoogstraten_-_Young_woman_at_an_open_half-door_(1645).jpg"
   },
   {
     "id": "aic-27307",
@@ -25,8 +25,8 @@ export const STOCK = [
     "artist": "Jacques Louis David",
     "category": "Portraits",
     "mood": "Calm",
-    "image": "72227c9e-413c-8930-477d-5a90e0a2123c",
-    "ratio": 0.732
+    "ratio": 0.732,
+    "source": "https://commons.wikimedia.org/wiki/File:Jacques_Louis_David_-_Madame_de_Pastoret_and_Her_Son_-_1967.228_-_Art_Institute_of_Chicago.jpg"
   },
   {
     "id": "aic-14655",
@@ -34,8 +34,8 @@ export const STOCK = [
     "artist": "Pierre-Auguste Renoir",
     "category": "Portraits",
     "mood": "Warm",
-    "image": "3a608f55-d76e-fa96-d0b1-0789fbc48f1e",
-    "ratio": 0.806
+    "ratio": 0.813,
+    "source": "https://commons.wikimedia.org/wiki/File:Renoir,_Pierre-Auguste_-_The_Two_Sisters,_On_the_Terrace.jpg"
   },
   {
     "id": "aic-81558",
@@ -43,8 +43,8 @@ export const STOCK = [
     "artist": "Pierre-Auguste Renoir",
     "category": "Portraits",
     "mood": "Warm",
-    "image": "321c45f5-22a3-84a2-44cc-cf66642d4cf2",
-    "ratio": 0.748
+    "ratio": 0.755,
+    "source": "https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_-_Acrobats_at_the_Cirque_Fernando_(Francisca_and_Angelina_Wartenberg)_-_Google_Art_Project.jpg"
   },
   {
     "id": "aic-25825",
@@ -52,8 +52,8 @@ export const STOCK = [
     "artist": "Pierre-Auguste Renoir",
     "category": "Portraits",
     "mood": "Warm",
-    "image": "8f06717c-9ede-f22b-d13b-327a50c22f9c",
-    "ratio": 0.803
+    "ratio": 0.802,
+    "source": "https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_-_Woman_at_the_Piano_-_1937.1025_-_Art_Institute_of_Chicago.jpg"
   },
   {
     "id": "aic-66042",
@@ -61,8 +61,8 @@ export const STOCK = [
     "artist": "Adriaen van der Spelt",
     "category": "Botanical",
     "mood": "Warm",
-    "image": "4a04138f-43d8-cd9f-5ac4-478cd8828210",
-    "ratio": 1.387
+    "ratio": 1.379,
+    "source": "https://commons.wikimedia.org/wiki/File:Adriaen_van_der_Spelt_-_Trompe-l%27Oeil_Still_Life_with_a_Flower_Garland_and_a_Curtain_-_1949.585_-_Art_Institute_of_Chicago.jpg"
   },
   {
     "id": "aic-111377",
@@ -70,8 +70,8 @@ export const STOCK = [
     "artist": "William Michael Harnett",
     "category": "Botanical",
     "mood": "Warm",
-    "image": "3cea045a-92d6-36cf-1508-2c99ea740218",
-    "ratio": 0.564
+    "ratio": 0.562,
+    "source": "https://commons.wikimedia.org/wiki/File:William_Michael_Harnett_-_For_Sunday%27s_Dinner_-_Google_Art_Project.jpg"
   },
   {
     "id": "aic-16617",
@@ -79,8 +79,8 @@ export const STOCK = [
     "artist": "Pierre-Auguste Renoir",
     "category": "Botanical",
     "mood": "Warm",
-    "image": "479aff61-784e-e833-fd82-50ba8c819514",
-    "ratio": 1.201
+    "ratio": 1.201,
+    "source": "https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_-_Chrysanthemums_-_1933.1173_-_Art_Institute_of_Chicago.jpg"
   },
   {
     "id": "aic-28560",
@@ -88,8 +88,8 @@ export const STOCK = [
     "artist": "Vincent van Gogh",
     "category": "Botanical",
     "mood": "Calm",
-    "image": "6644829f-f292-c5c4-a73c-0356a6fdbf0d",
-    "ratio": 1.277
+    "ratio": 1.279,
+    "source": "https://commons.wikimedia.org/wiki/File:La_Chambre_%C3%A0_Arles,_by_Vincent_van_Gogh,_from_C2RMF.jpg"
   },
   {
     "id": "aic-80607",
@@ -97,8 +97,8 @@ export const STOCK = [
     "artist": "Vincent van Gogh",
     "category": "Botanical",
     "mood": "Calm",
-    "image": "47c5bcb8-62ef-e5d7-55e7-f5121f409a30",
-    "ratio": 0.785
+    "ratio": 0.791,
+    "source": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_(454045).jpg"
   },
   {
     "id": "aic-14586",
@@ -106,8 +106,8 @@ export const STOCK = [
     "artist": "Vincent van Gogh",
     "category": "Botanical",
     "mood": "Calm",
-    "image": "fa5aaa98-8095-07d6-3b7d-3dfccc518191",
-    "ratio": 1.268
+    "ratio": 1.26,
+    "source": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_The_Poet%27s_Garden_-_1933.433_-_Art_Institute_of_Chicago.jpg"
   },
   {
     "id": "aic-61128",
@@ -115,8 +115,8 @@ export const STOCK = [
     "artist": "Henri de Toulouse-Lautrec",
     "category": "Typography",
     "mood": "Bold",
-    "image": "defb4004-b500-218d-3d9b-9a02423f097d",
-    "ratio": 1.144
+    "ratio": 1.14,
+    "source": "https://commons.wikimedia.org/wiki/File:Henri_de_Toulouse-Lautrec_-_At_the_Moulin_Rouge_-_Google_Art_Project.jpg"
   },
   {
     "id": "aic-86204",
@@ -124,8 +124,8 @@ export const STOCK = [
     "artist": "Henri de Toulouse-Lautrec",
     "category": "Typography",
     "mood": "Bold",
-    "image": "e33066e0-b726-725c-8e26-940646006c7d",
-    "ratio": 0.709
+    "ratio": 0.709,
+    "source": "https://commons.wikimedia.org/wiki/File:Toulouse-Lautrec_-_Old_Man_and_Young_Girl,_1955.2669.jpg"
   },
   {
     "id": "aic-16146",
@@ -133,8 +133,8 @@ export const STOCK = [
     "artist": "Henri de Toulouse-Lautrec",
     "category": "Typography",
     "mood": "Bold",
-    "image": "65db9e21-83c3-1cc6-7240-1e1996d87f52",
-    "ratio": 1.588
+    "ratio": 1.588,
+    "source": "https://commons.wikimedia.org/wiki/File:Henri_de_Toulouse-Lautrec_-_Equestrienne_(At_the_Cirque_Fernando)_-_1925.523_-_Art_Institute_of_Chicago.jpg"
   },
   {
     "id": "aic-111986",
@@ -142,8 +142,8 @@ export const STOCK = [
     "artist": "Alphonse Marie Mucha",
     "category": "Typography",
     "mood": "Bold",
-    "image": "119dba14-acf2-cdcd-e9e6-b9cd38bc3aad",
-    "ratio": 0.745
+    "ratio": 0.753,
+    "source": "https://commons.wikimedia.org/wiki/File:Alphonse_Mucha_-_Zodiac,_1869.jpg"
   },
   {
     "id": "aic-182672",
@@ -151,8 +151,8 @@ export const STOCK = [
     "artist": "Alphonse Marie Mucha",
     "category": "Typography",
     "mood": "Bold",
-    "image": "25f1f8c4-5ebf-3aa7-3854-4c092d620656",
-    "ratio": 1.082
+    "ratio": 1.119,
+    "source": "https://commons.wikimedia.org/wiki/File:Textile,_Femme_%C3%A0_Marguerite_(Woman_with_Daisy),_ca._1898%E2%80%931900_(CH_18699491).jpg"
   },
   {
     "id": "aic-8991",
@@ -160,8 +160,8 @@ export const STOCK = [
     "artist": "Vasily Kandinsky",
     "category": "Abstract",
     "mood": "Bold",
-    "image": "b5bc6b66-9e6e-fe57-dcec-fc49e820e904",
-    "ratio": 0.996
+    "ratio": 1.001,
+    "source": "https://commons.wikimedia.org/wiki/File:Vasily_Kandinsky,_Improvisation_No._30_(Cannons),_1913,_1931.511,_Art_Institute_of_Chicago.jpg"
   },
   {
     "id": "aic-8980",
@@ -169,8 +169,8 @@ export const STOCK = [
     "artist": "Vasily Kandinsky",
     "category": "Abstract",
     "mood": "Bold",
-    "image": "9694ca0c-c4c4-e48d-566f-4d248990cff4",
-    "ratio": 1.269
+    "ratio": 1.279,
+    "source": "https://commons.wikimedia.org/wiki/File:Vasily_Kandinsky_-_Landscape_with_Two_Poplars_-_1931.508_-_Art_Institute_of_Chicago.jpg"
   },
   {
     "id": "aic-95",
@@ -178,8 +178,8 @@ export const STOCK = [
     "artist": "Paul Pontius",
     "category": "Abstract",
     "mood": "Playful",
-    "image": "35203a2e-8500-a561-159f-46b2ac76ca7b",
-    "ratio": 0.807
+    "ratio": 0.731,
+    "source": "https://commons.wikimedia.org/wiki/File:Daniel_Mytens,_RC97080.jpg"
   },
   {
     "id": "aic-111436",
@@ -187,8 +187,8 @@ export const STOCK = [
     "artist": "Paul Cezanne",
     "category": "Abstract",
     "mood": "Playful",
-    "image": "52ac8996-3460-cf71-cb42-5c4d0aa29b74",
-    "ratio": 1.252
+    "ratio": 1.249,
+    "source": "https://commons.wikimedia.org/wiki/File:Paul_C%C3%A9zanne_-_The_Basket_of_Apples_-_1926.252_-_Art_Institute_of_Chicago.jpg"
   },
   {
     "id": "aic-16487",
@@ -196,8 +196,8 @@ export const STOCK = [
     "artist": "Paul Cezanne",
     "category": "Abstract",
     "mood": "Playful",
-    "image": "d4ca6321-8656-3d3f-a362-2ee297b2b813",
-    "ratio": 1.248
+    "ratio": 1.256,
+    "source": "https://commons.wikimedia.org/wiki/File:Paul_C%C3%A9zanne_-_The_Bay_of_Marseilles,_Seen_from_L%27Estaque_-_Google_Art_Project.jpg"
   },
   {
     "id": "aic-20684",
@@ -205,8 +205,8 @@ export const STOCK = [
     "artist": "Gustave Caillebotte",
     "category": "City",
     "mood": "Calm",
-    "image": "f8fd76e9-c396-5678-36ed-6a348c904d27",
-    "ratio": 1.288
+    "ratio": 1.32,
+    "source": "https://commons.wikimedia.org/wiki/File:Gustave_Caillebotte_-_Paris_Street;_Rainy_Day_-_Google_Art_Project.jpg"
   },
   {
     "id": "aic-154121",
@@ -214,8 +214,8 @@ export const STOCK = [
     "artist": "Gustave Caillebotte",
     "category": "City",
     "mood": "Calm",
-    "image": "0274aa9e-95d1-2a8e-12e3-2b09d7749b4f",
-    "ratio": 0.739
+    "ratio": 0.739,
+    "source": "https://commons.wikimedia.org/wiki/File:Gustave_Caillebotte_-_Calf%27s_Head_and_Ox_Tongue_-_1999.561_-_Art_Institute_of_Chicago.jpg"
   },
   {
     "id": "aic-16568",
@@ -223,8 +223,8 @@ export const STOCK = [
     "artist": "Claude Monet",
     "category": "City",
     "mood": "Warm",
-    "image": "3c27b499-af56-f0d5-93b5-a7f2f1ad5813",
-    "ratio": 1.041
+    "ratio": 1.039,
+    "source": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Water_Lilies_-_1933.1157_-_Art_Institute_of_Chicago.jpg"
   },
   {
     "id": "aic-16571",
@@ -232,8 +232,8 @@ export const STOCK = [
     "artist": "Claude Monet",
     "category": "City",
     "mood": "Warm",
-    "image": "0f1cc0e0-e42e-be16-3f71-2022da38cb93",
-    "ratio": 1.333
+    "ratio": 1.333,
+    "source": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Arrival_of_the_Normandy_Train,_Gare_Saint-Lazare_-_Google_Art_Project.jpg"
   },
   {
     "id": "aic-14620",
@@ -241,8 +241,8 @@ export const STOCK = [
     "artist": "Claude Monet",
     "category": "City",
     "mood": "Warm",
-    "image": "b0effb1c-ff23-bbaa-f809-9fd94e31c1a0",
-    "ratio": 1.249
+    "ratio": 1.247,
+    "source": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Cliff_Walk_at_Pourville_-_Google_Art_Project.jpg"
   },
   {
     "id": "aic-4371",
@@ -250,8 +250,8 @@ export const STOCK = [
     "artist": "Utagawa Hiroshige",
     "category": "Japanese",
     "mood": "Calm",
-    "image": "cef4e5df-a749-090b-b897-7d5f40654685",
-    "ratio": 1.342
+    "ratio": 1.52,
+    "source": "https://commons.wikimedia.org/wiki/File:Hamamatsu_No._30._Hawawatsu_one_of_the_fifty-three_noted_places_on_Tokaido,_painted_by_Hiroshige_De_T%C3%B4kaid%C3%B4_van_Hiroshige_(serietitel)_Hiroshige_no_fude_T%C3%B4kaid%C3%B4_(serietitel_op_object),_RP-P-2010-310-95-30.jpg"
   },
   {
     "id": "aic-4368",
@@ -259,8 +259,8 @@ export const STOCK = [
     "artist": "Utagawa Hiroshige",
     "category": "Japanese",
     "mood": "Calm",
-    "image": "2920ee93-7e74-393e-c270-d58847eb9af7",
-    "ratio": 1.339
+    "ratio": 1.566,
+    "source": "https://commons.wikimedia.org/wiki/File:Ferry_Crossing_the_Tenryu_River,_Mitsuke_LACMA_M.73.75.17.jpg"
   },
   {
     "id": "aic-10926",
@@ -268,8 +268,8 @@ export const STOCK = [
     "artist": "Utagawa Hiroshige",
     "category": "Japanese",
     "mood": "Calm",
-    "image": "c047003a-949c-a581-7c5a-2c415e8cac75",
-    "ratio": 1.562
+    "ratio": 1.49,
+    "source": "https://commons.wikimedia.org/wiki/File:Mishima_Asa-Giri-%E6%9D%B1%E6%B5%B7%E9%81%93%E4%BA%94%E5%8D%81%E4%B8%89%E6%AC%A1%E4%B9%8B%E5%86%85_%E4%B8%89%E5%B3%B6_%E6%9C%9D%E9%9C%A7-Morning_Mist_MET_DP123235.jpg"
   },
   {
     "id": "aic-24645",
@@ -277,8 +277,8 @@ export const STOCK = [
     "artist": "Katsushika Hokusai",
     "category": "Japanese",
     "mood": "Bold",
-    "image": "b3974542-b9b4-7568-fc4b-966738f61d78",
-    "ratio": 1.459
+    "ratio": 1.488,
+    "source": "https://commons.wikimedia.org/wiki/File:Tsunami_by_hokusai_19th_century.jpg"
   },
   {
     "id": "aic-87008",
@@ -286,8 +286,8 @@ export const STOCK = [
     "artist": "Katsushika Hokusai",
     "category": "Japanese",
     "mood": "Bold",
-    "image": "bbb6d024-f931-2e2f-eb95-750991834b1c",
-    "ratio": 1.445
+    "ratio": 1.462,
+    "source": "https://commons.wikimedia.org/wiki/File:Katsushika_Hokusai_-_Shower_Below_the_Summit_(Sanka_hakuu),_from_the_series_Thirty-six_Views_of_Mount_Fuji_(Fugaku_sanjur..._-_Google_Art_Project.jpg"
   },
   {
     "id": "aic-77333",
@@ -295,17 +295,8 @@ export const STOCK = [
     "artist": "Katsushika Hokusai",
     "category": "Japanese",
     "mood": "Bold",
-    "image": "05cd1ba7-67d1-96c5-0e78-2eb4114b65e7",
-    "ratio": 1.445
-  },
-  {
-    "id": "aic-119335",
-    "title": "Baroque Pearl Mounted as a Cat Holding a Mouse",
-    "artist": "Unknown artist",
-    "category": "Pop",
-    "mood": "Playful",
-    "image": "fe394433-14ae-89e0-136f-31cbdb390771",
-    "ratio": 1.294
+    "ratio": 1.488,
+    "source": "https://commons.wikimedia.org/wiki/File:Tsunami_by_hokusai_19th_century.jpg"
   },
   {
     "id": "aic-51719",
@@ -313,7 +304,7 @@ export const STOCK = [
     "artist": "Théophile-Alexandre Pierre Steinlen",
     "category": "Pop",
     "mood": "Playful",
-    "image": "e8e67721-bbb1-d007-82bd-c430ea73db70",
-    "ratio": 1.301
+    "ratio": 1.276,
+    "source": "https://commons.wikimedia.org/wiki/File:Th%C3%A9ophile_Alexandre_Steinlen,_Winter_-_Cat_on_a_Cushion_(L%27hiver_-_Chat_sur_un_coussin),_NGA_66755.jpg"
   }
 ] as const
