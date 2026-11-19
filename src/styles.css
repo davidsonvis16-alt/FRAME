@@ -298,13 +298,14 @@ h2 { font-size: clamp(28px, 3.4vw, 42px); font-weight: 700; }
 .mood--3::before { background: var(--wood); }
 .mood b { font: 600 26px var(--display); }
 .mood small { color: var(--muted); }
-.mood__stack { position: relative; height: 150px; margin-bottom: 14px; }
+.mood__stack { position: relative; aspect-ratio: 2 / 1; margin-bottom: 14px; }
 .mood__stack > div {
-  position: absolute; width: 44%; top: 10px;
-  left: calc(8% + var(--k) * 24%);
+  position: absolute; width: 36%; top: 5%;
+  left: calc(6% + var(--k) * 26%);
   transform: rotate(calc((var(--k) - 1) * 7deg)); transition: transform .3s;
 }
 .mood__stack > div:nth-child(2) { z-index: 2; top: 0; }
+.mood__stack .framed__art { aspect-ratio: 4 / 5 !important; }
 .mood:hover .mood__stack > div { transform: rotate(calc((var(--k) - 1) * 12deg)) translateY(-6px); }
 .mood:hover b { color: var(--red); }
 
@@ -674,8 +675,6 @@ label input:focus, label textarea:focus { outline: none; border-color: var(--cop
 
   .moods__row { gap: 12px; }
   .mood { padding: 14px 14px 16px 18px; }
-  .mood__stack { height: 100px; margin-bottom: 10px; }
-  .mood__stack > div { width: 38%; left: calc(6% + var(--k) * 26%); }
-  .mood__stack .framed__art { aspect-ratio: 4 / 5 !important; }
+  .mood__stack { aspect-ratio: 5 / 3; margin-bottom: 10px; }
   .mood b { font-size: 20px; }
 }
